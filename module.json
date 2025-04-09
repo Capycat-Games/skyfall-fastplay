@@ -1,0 +1,66 @@
+{
+  "id": "skyfall-fastplay",
+  "title": "Skyfall RPG - Fastplay",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "authors": [
+    {
+      "name": "Capycat Games",
+      "discord": "capycatgames",
+      "flags": {}
+    },
+    {
+      "name": "Vizael",
+      "discord": "vizael",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "fastplay",
+      "label": "Aventura",
+      "path": "packs/adventure",
+      "type": "Adventure",
+      "ownership": {
+        "ASSISTANT": "OWNER"
+      },
+      "system": "skyfall",
+      "flags": {}
+    },
+    {
+      "name": "rules",
+      "label": "Regras",
+      "path": "packs/rules",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "skyfall",
+      "flags": {}
+    },
+    {
+      "name": "characters",
+      "label": "Personagens Prontos",
+      "path": "packs/characters",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "skyfall",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Skyfall RPG - Jogo Rápido",
+      "sorting": "m",
+      "color": "#000000",
+      "packs": ["fastplay", "characters", "rules"]
+    }
+  ]
+}
